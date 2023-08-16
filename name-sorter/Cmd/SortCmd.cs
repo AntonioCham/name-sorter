@@ -44,7 +44,7 @@ namespace name_sorter.Cmd
                 //Output the file
                 fileOutputService.Write(data);
                 Printer.nameListPrinter(data);
-                Console.WriteLine("Process finished, press any key to exit the programme.......");
+                Console.WriteLine("\nProcess finished, press any key to exit the programme.......");
             }
             catch (Exception ex)
             {
