@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter", "name-sorter\name-sorter.csproj", "{9FB6579B-D37A-4978-A1B2-0B7F48DD026C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter-test", "name-sorter-test\name-sorter-test.csproj", "{95724B7C-FBCB-4FA2-9D64-FD58B61E868B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9AF3219-015E-4B13-98A7-E2C3D1B64679}"
+	ProjectSection(SolutionItems) = preProject
+		README.tt = README.tt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FB6579B-D37A-4978-A1B2-0B7F48DD026C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB6579B-D37A-4978-A1B2-0B7F48DD026C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB6579B-D37A-4978-A1B2-0B7F48DD026C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB6579B-D37A-4978-A1B2-0B7F48DD026C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95724B7C-FBCB-4FA2-9D64-FD58B61E868B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95724B7C-FBCB-4FA2-9D64-FD58B61E868B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95724B7C-FBCB-4FA2-9D64-FD58B61E868B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95724B7C-FBCB-4FA2-9D64-FD58B61E868B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF295499-812F-45CF-87AE-9A7375ED9AC2}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		description = Name Sorter to sort the last name then by the given name alphabetically
+		version = 1.0
+	EndGlobalSection
+EndGlobal
