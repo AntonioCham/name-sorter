@@ -3,4 +3,3 @@ using name_sorter.Cmd;
 
 var cmd = new SortCmd(args);
 cmd.Process();
-Console.ReadKey();

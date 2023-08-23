@@ -14,11 +14,13 @@
     <None Remove="Service\" />
     <None Remove="Service\impl\" />
     <None Remove="Cmd\" />
+    <None Remove="Helper\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utils\" />
     <Folder Include="Service\" />
     <Folder Include="Service\impl\" />
     <Folder Include="Cmd\" />
+    <Folder Include="Helper\" />
   </ItemGroup>
 </Project>
